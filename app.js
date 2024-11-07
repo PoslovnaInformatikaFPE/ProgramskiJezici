@@ -65,16 +65,41 @@
 
 let brojBodova = 40
 
-if(brojBodova > 90){
+if (brojBodova > 90) {
     console.log("Ocjena 10!");
-}else if(brojBodova > 80){
+} else if (brojBodova > 80) {
     console.log("Ocjena 9!");
-}else if(brojBodova > 70){
+} else if (brojBodova > 70) {
     console.log("Ocjena 8!");
-}else if(brojBodova > 60){
+} else if (brojBodova > 60) {
     console.log("Ocjena 7!");
-}else if(brojBodova > 50){
+} else if (brojBodova > 50) {
     console.log("Ocjena 6!");
-}else{
+} else {
     console.log("Pao!");
+}
+
+
+let brojA = 12
+let brojB = "12"
+
+if (true === 1) {
+    console.log("DA");
+} else {
+    console.log("NE");
+}
+
+// for petlja
+
+for (let i = 0; i < 10; i++) {
+    console.log("Printam:", i);
+}
+
+// console.log("I posle petlje:", i);
+
+let i = 0
+
+while(i<10){
+    console.log("I je:", i);
+    i = i+1
 }
