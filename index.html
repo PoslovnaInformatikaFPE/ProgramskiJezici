@@ -24,13 +24,26 @@
             <th>Temp</th>
             <th>Humidity</th>
             <th>Light</th>
+            <th>Actions</th>
         </thead>
         <tbody id="tabela-mjerenja">
         </tbody>
     </table>
+    <p id="error"></p>
+    <div class="input-body">
+        <input type="text" class="form-control" placeholder="Id" aria-label="Id" id="id">
+        <input type="text" class="form-control" placeholder="Time" aria-label="Time" id="time">
+        <input type="text" class="form-control" placeholder="Temp" aria-label="Temp" id="temp">
+        <input type="text" class="form-control" placeholder="Humidity" aria-label="Humidity" id="humidity">
+        <input type="text" class="form-control" placeholder="Light" aria-label="Light" id="light">
+        <button onclick="insertData()">Sačuvaj</button>
+        <p id="greskaUpisa"></p>
+    </div>
 
     <script type="text/javascript" src="get.js">
     </script>
+    <script type="text/javascript" src="post.js"></script>
+    <script type="text/javascript" src="delete.js"></script>
     <!-- Iznad je kod za povezivanje sa javom script -->
 </body>
 

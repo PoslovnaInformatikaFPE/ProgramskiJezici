@@ -1,25 +1,25 @@
 {
-    "measurements": [
-        {
-            "id": 1,
-            "measurement_time": "2024-12-03 09:35:40",
-            "temperature": "23.4",
-            "humidity": "51.00",
-            "light": "0"
-        },
-        {
-            "id": 2,
-            "measurement_time": "2024-12-03 09:36:40",
-            "temperature": "23.4",
-            "humidity": "51.00",
-            "light": "1"
-        },
-        {
-            "id": 3,
-            "measurement_time": "2024-12-03 09:37:40",
-            "temperature": "23.4",
-            "humidity": "51.00",
-            "light": "0"
-        }
-    ]
+  "measurements": [
+    {
+      "id": 1,
+      "measurement_time": "2024-12-03 09:35:40",
+      "temperature": "23.4",
+      "humidity": "51.00",
+      "light": "0"
+    },
+    {
+      "id": 2,
+      "measurement_time": "2024-12-03 09:36:40",
+      "temperature": "23.4",
+      "humidity": "51.00",
+      "light": "1"
+    },
+    {
+      "id": 3,
+      "measurement_time": "2024-12-03 09:37:40",
+      "temperature": "23.4",
+      "humidity": "51.00",
+      "light": "0"
+    }
+  ]
 }

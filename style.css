@@ -1,28 +1,84 @@
-p{
-    color:red;
-    font-weight: 900;
+p {
+  color: red;
+  font-weight: 900;
 }
 
-.plavi-paragraf{
-    color: blue
+.plavi-paragraf {
+  color: blue
 }
 
-#cetvrtiParagraf{
-    color: green
+#cetvrtiParagraf {
+  color: green
 }
 
 table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.input-body {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* Razmak između elemenata */
+}
+
+.form-control {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #007bff;
+  /* Boja prilikom fokusa */
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#greskaUpisa {
+  margin-top: 10px;
+  color: red;
+  font-size: 14px;
+}
+.edit-delete{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.edit-delete :hover{
+  cursor: pointer;
+}
+
+.edit-delete{
+  border: none;
+}
